@@ -6,7 +6,7 @@
 
 from flask import Flask, request, jsonify
 import cv2, glob, sys, os
-from PIL import Image
+#from PIL import Image
 from flask_restful import Resource, Api
         
 app = Flask(__name__)
