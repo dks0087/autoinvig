@@ -7,7 +7,7 @@
 from flask import Flask, request, jsonify
 import cv2, glob, sys, os
 #from PIL import Image
-from flask_restful import Resource, Api
+#from flask_restful import Resource, Api
         
 app = Flask(__name__)
 
@@ -86,7 +86,7 @@ if __name__ == '__main__':
 # In[20]:
 
 
-print(os.path.splitext(os.path.basename(path))[0])
+#print(os.path.splitext(os.path.basename(path))[0])
 
 
 # In[ ]:
