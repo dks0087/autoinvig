@@ -1,1 +1,1 @@
-web: gunicorn app:autoinvig
+web: gunicorn autoinvig:app
