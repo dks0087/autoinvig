@@ -1,1 +1,1 @@
-web: gunicorn app:invigapp_variabledirectory
+web: gunicorn app:autoinvig
